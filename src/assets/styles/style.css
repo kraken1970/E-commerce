@@ -649,13 +649,23 @@ header {
     height: 9.26vh;
 }
 
-.block-none {
-    display: none!important;
+header .wrap {
+  height: inherit;
 }
 
 .color_main {
   background-color: #1bbcb8;
 }
+
+#main_nav a {
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 1.17vmax;
+}
+
+#main_nav a:hover {
+    text-decoration: underline;
+  }
 
 /* Large Devices, Wide Screens */
 

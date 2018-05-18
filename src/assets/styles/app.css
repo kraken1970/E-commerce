@@ -1,4 +1,6 @@
 @import 'normalize.css/normalize.css';
+@import './reset.css';
+@import './flex.css';
 @import './fonts.css';
 @import './main.css';
 @import './media.css';

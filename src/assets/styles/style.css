@@ -649,12 +649,12 @@ header {
     height: 9.26vh;
 }
 
-header .wrap, header .main_flex__nowrap {
-  height: inherit;
+header .wrap {
+    height: inherit;
 }
 
 .color_main {
-  background-color: #1bbcb8;
+    background-color: #1bbcb8;
 }
 
 #main_nav a {
@@ -667,35 +667,40 @@ header .wrap, header .main_flex__nowrap {
     text-decoration: underline;
   }
 
+#main_nav {
+    margin-right: 0.7vmax;
+}
+
 #logo {
-  width: 8vw;
-  margin-right: 8vw;
+    width: 8vw;
+    margin-right: 8vw;
 }
 
 #cart {
-  width: 2.94vw;
-  margin: 0 2.2vw;
-  cursor: pointer;
+    width: 2.94vw;
+    margin-right: 2.2vw;
+    margin-left: auto;
+    cursor: pointer;
 }
 
-input[name="search"] {
-  background-color: #e6f3f3;
-  border: none;
-	border-radius: 0.36vw;
-  width: 30.88vw;
-  height: 4.65vh;
-  padding-left: 1vw;
-  padding-right: 2.95vw;
-  background-image: url(../../assets/images/lans.png);
-  background-repeat: no-repeat;
-  -webkit-background-size: 1.39vw 1.39vw;
-          background-size: 1.39vw 1.39vw;
-  background-position: 28.38vw center; 
+.main_nav--search {
+    background-color: #e6f3f3;
+    border: none;
+    border-radius: 0.36vw;
+    width: 30.88vw;
+    height: 4.65vh;
+    padding-left: 1vw;
+    padding-right: 2.95vw;
+    background-image: url(../../assets/images/lans.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 1.39vw 1.39vw;
+            background-size: 1.39vw 1.39vw;
+    background-position: 28.38vw center;
 }
 
-.home #search {
-  display: none;
-}
+/* .home #search {
+    display: none;
+} */
 
 /* Large Devices, Wide Screens */
 

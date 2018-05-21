@@ -164,13 +164,20 @@ header .wrap {
     }
 }
 
+.slide_banner {
+    position: relative;
+}
+
 .slider_order--banner {
     width: 28.26vw;
     height: 27.9vh;
     background-color: #fff;
     box-shadow: 10px 17.3px 20px rgba(0, 0, 0, 0.2);
     border-radius: 0.36vw;
-    padding: 2.4vw;
+    padding: 4.3vh 3.16vw 4.3vh 2.35vw;
+    position: absolute;
+    right: 2.17vw;
+    bottom: 7.9vh;
 }
 
 .main_btn {
@@ -199,6 +206,10 @@ header .wrap {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 2.33vh;
+    &.radio_color {
+        margin-bottom: 2.9vh;
+    }
 }
 
 .inline_radio label {
@@ -222,4 +233,24 @@ header .wrap {
       background-color: #093c3b;
       color: #fff;
     }
+    &.active {
+      background-color: #093c3b;
+      color: #fff  
+    }
 }
+
+.radio_color label {
+   background-color: #093c3b;
+   border-radius: 50%;
+   &:nth-child(1) {
+       	background-color: #8b4e39; 
+   }
+   &:hover {
+        background-color: #060606; 
+   }
+   &.active {
+	    border: 0.22vw solid #1bbcb8; 
+   } 
+}
+
+

@@ -16,7 +16,7 @@
         <div class="wrap  main_flex__nowrap flex__jcontent_start flex__align-items_center">
 
             <div id="logo">
-                <img src="../assets/images/head_logo.png" alt="">
+                <img src="../assets/images/head_logo.png" alt="logotype">
             </div>
             <nav id="main_nav" class="main_flex__nowrap flex__jcontent_start flex__align-items_center">
                 <li>
@@ -35,15 +35,14 @@
                     <a href="#">НОВОCТИ</a>
                 </li>
                 <li>
-                    <a href="#">КОНТАКТЫ</a>
+                    <a class="main_nav--last" href="#">КОНТАКТЫ</a>
                 </li>
             </nav>
-
             <div id="search">
                 <input class="main_nav--search" type="search" name="search">
             </div>
             <div id="cart">
-                <img src="../assets/images/cart.png" alt="">
+                <img src="../assets/images/cart.png" alt="cart">
             </div>
 
         </div>
@@ -52,10 +51,88 @@
     <div id="banner">
         <div id="banner_wrap" class="wrap">
 
+            <div class="slide_banner">
+
+                <div class="slide_img--banner">
+                    <img src="../assets/images/img.png" alt="">
+                </div>
+
+                <div class="slide_title--banner">
+                    <div class="header_slide--title-banner">
+                        <h2>СУПЕР БОТИНКИ</h2>
+                        <h3>по супер цене</h3>
+
+                        <p>
+                            Не следует, однако забывать, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации новых предложений.
+                        </p>
+                        <a href="#">Подробней</a>
+                    </div>
+                </div>
+
+                <div class="slider_order--banner">
+
+                    <div class="input_box main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                        <div class="label-input--box">
+                            <label>Размер</label>
+                        </div>
+                        <div class="inline_radio box_radio">
+                            <label>
+                                    40
+                                    <input type="radio" name="size" value="40">
+                                </label>
+                            <label>
+                                    41
+                                    <input type="radio" name="size" value="41">
+                                </label>
+                            <label>
+                                    42
+                                    <input type="radio" name="size" value="42">
+                                </label>
+                            <label>
+                                    43
+                                    <input type="radio" name="size" value="43">
+                                </label>
+                            <label>
+                                    44
+                                    <input type="radio" name="size" value="44">
+                                </label>
+                        </div>
+
+                    </div>
+
+                    <div class="input_box main_flex__nowrap flex__jcontent_start flex__align-items_center">
+
+                        <div class="label-input--box">
+                            <label>Цвет</label>
+                        </div>
+                        <div class="inline_radio radio_color">
+                            <label>
+                                <input type="radio" name="color"value="color1">
+                            </label>
+                            <label>
+                                <input type="radio" name="color"value="color2">
+                            </label>
+                            <label>
+                                <input type="radio" name="color"value="color3">
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                        <input type="number" value="1" name="count" min="1">
+
+                        <button type="submit" class="btn main_btn">КУПИТЬ</button>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 
-    <script src="assets/JS/jquery-3.3.1.min.js"></script>
+    <script src="assets/Lib/jquery-3.3.1.min.js"></script>
     <script src="assets/JS/app.js"></script>
 </body>
 

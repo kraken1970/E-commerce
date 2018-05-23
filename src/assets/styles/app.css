@@ -3,4 +3,8 @@
 @import './flex.css';
 @import './fonts.css';
 @import './main.css';
+
+/* @import './Lib/slick-1.8.0/slick/slick.css';
+@import './Lib/slick-1.8.0/slick/slick-theme.css'; */
+
 @import './media.css';
